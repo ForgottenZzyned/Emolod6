@@ -47,12 +47,12 @@ namespace Emolod6._1
             while(hours > defaulHourCount)
             {
                 hours--;
-                salary += salaryPerHour * coeff * 1;
+                salary += salaryPerHour * coeff;
             }
             while(hours > 0)
             {
                 hours--;
-                salary += salaryPerHour * 5 * 1;
+                salary += salaryPerHour * 5;
             }
             this.money += Convert.ToDouble(salary) + 2000;
             Console.WriteLine($"This is {this.name}, he is Professor and his salary is {salary}, his hours in this month is {this.hours}");
@@ -73,12 +73,12 @@ namespace Emolod6._1
             while (hours > defaulHourCount)
             {
                 hours--;
-                salary += salaryPerHour * coeff * 1;
+                salary += salaryPerHour * coeff;
             }
             while (hours > 0)
             {
                 hours--;
-                salary += salaryPerHour * 1 * 1;
+                salary += salaryPerHour * 1;
             }
             Random rand = new Random();
             this.money += Convert.ToDouble(salary) + rand.Next(-700,701);
@@ -101,12 +101,12 @@ namespace Emolod6._1
             while (hours > defaulHourCount)
             {
                 hours--;
-                salary += salaryPerHour * coeff * 1;
+                salary += salaryPerHour * coeff;
             }
             while (hours > 0)
             {
                 hours--;
-                salary += salaryPerHour * 2 * 1;
+                salary += salaryPerHour * 2;
             }
             this.money += Convert.ToDouble(salary);            
             Console.WriteLine($"This is {this.name}, he is Staff and his salary is {salary}, his hours in this month is {this.hours}");
