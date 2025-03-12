@@ -119,10 +119,10 @@ namespace Emolod6
 
     internal class FirstTask
     {
-        static GetUserInput getInput = new GetUserInput();           
+        static GetUserInput getInput = new GetUserInput();     
+        static Status status = new Status();
         static void Main()
-        {
-            Status status = new Status();
+        {            
             status = Status.Pending;
             Order orders = new Order();
             int i = 0;        
